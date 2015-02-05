@@ -103,8 +103,8 @@ if __name__ == "__main__":
             for bot in bots:
                 bot.communicator.send_message("0")
                 bot.communicator.kill()
-        points = list(points.items())
-        points.sort(key=lambda tup: tup[1])
-        for name, point in points:
-            print name+" got "+str(point)+" points"
+    points = list(points.items())
+    points.sort(key=lambda tup: tup[1])
+    for name, point in points:
+        print name+" got "+str(point)+" points"
 
