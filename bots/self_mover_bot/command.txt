@@ -1,0 +1,2 @@
+javac SelfMover.java
+java SelfMover
